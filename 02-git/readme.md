@@ -1,0 +1,1 @@
+Para practicar git vamos a haerlo creando un repositorio con el material de la cursada.

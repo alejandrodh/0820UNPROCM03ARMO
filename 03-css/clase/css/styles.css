@@ -1,0 +1,43 @@
+/* Estilos de mi sitio web */
+
+/* Selectores */
+body{
+    
+}
+
+p {
+    color: blue;
+}
+
+.primero{
+    color:blue;
+}
+
+#destacado {
+    font-size: 20px;
+}
+
+p{
+    color: green;
+}
+
+h3.principal{
+ font-size: 50px;
+}
+
+.contenedor .parrafo{
+    color: red;
+}
+
+h3, 
+p,
+.contenedor .parrafo {
+    color:violet;
+}
+
+selector {
+    font-size:10px;
+    color:red;
+    background-color: blue;
+    text-decoration: underline;
+}
