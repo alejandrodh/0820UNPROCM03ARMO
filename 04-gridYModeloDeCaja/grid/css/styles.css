@@ -1,0 +1,28 @@
+/* Probando grid */
+/* body{
+    margin: 0;
+} */
+.first {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* column-gap: 4px; */
+    /* row-gap: 19px; */
+    gap: 30px;
+    /* background: blue; */
+    /* padding: 15px 10px; */
+}
+
+p {
+    background: gainsboro;
+    border: 1px solid #444;
+    padding: 10px;
+    /* margin-bottom: 40px; */
+    margin: 0;
+}
+   .second{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+    margin-bottom: 50px;
+} 
