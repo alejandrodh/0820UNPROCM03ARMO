@@ -1,0 +1,49 @@
+/* estilos para responsive */
+/* Estilos mobile first */
+*{
+    box-sizing: border-box;
+}
+
+.notas-tres-col{
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 2%;
+}
+
+p{
+    background: rgba(0,255,0,0.5);
+    padding: 10px;
+}
+
+
+@media(min-width:320px){
+    .notas-tres-col{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media(min-width:766px){
+    p{
+        background: rgba(0,0,255,0.5);
+        color: #fff;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

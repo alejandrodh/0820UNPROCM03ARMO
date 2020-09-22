@@ -1,0 +1,56 @@
+/* estilos para responsive */
+/* Estilos desktop first */
+*{
+    box-sizing: border-box;
+}
+ul{
+    padding:0;
+}
+li{
+    list-style-type: none
+}
+
+h1 {
+    color: red;
+}
+.toggle-menu{
+    display: none;
+}
+.notas-tres-col{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2%;
+}
+
+p{
+    background: rgba(0,0,255,0.5);
+    padding: 10px;
+}
+.menu {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background: rgba(255,0,0,0.5);
+    color: #fff;
+    padding: 10px;
+}
+
+
+/* Condicionales Media queries */
+
+@media(max-width:766px){
+ p{
+     background: rgba(0,255,0,0.5);
+ }
+}
+
+@media(max-width:320px){
+    .toggle-menu{
+        display: block;
+    }
+    .menu {
+        display: none;
+    }
+    .notas-tres-col{
+        grid-template-columns: 1fr;
+    }
+}
