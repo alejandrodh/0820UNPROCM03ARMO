@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <h1>Registrate</h1>
+    <a href="index.html">Home</a>
+    <form action="exito.html" method="GET">
+        <!-- Otro method es POST. Lo vemos en ProgII -->
+        <!-- Todo el formulario va dentro de estas etiquetas -->
+        <div>
+            <label for="">Nombre</label>
+            <input type="text" name="firsName" placeholder="Nombre" value="">
+        </div>
+        <div>
+            <label for="">Email</label>
+            <input type="email" name="email" placeholder="email" value="">
+        </div>
+        <div>
+            <label for="">Contraseña</label>
+            <input type="password" name="password" placeholder="password" value="">
+        </div>
+        <div>
+            <label for="">DNI</label>
+            <input type="number" name="dni" placeholder="DNI" value="">
+        </div>
+        <div>
+            <label for="">Fecha de nacimiento</label>
+            <input type="date" name="birthDate" placeholder="fecha de nacimiento" value="">
+        </div>
+
+        <h2>Hobbies</h2>
+        <!-- Todos deben tener value declarado y mismo name -->
+        <div>
+            <input type="checkbox" name="hobbies" value="music">
+            <label for="" class="">Música</label>
+            
+        </div>
+        <div>
+            <input type="checkbox" name="hobbies" value="sports">
+            <label for="" class="">Deportes</label>
+        </div>
+        <div>
+            <input type="checkbox" name="hobbies" value="programming">
+            <label for="" class="">Programación</label>
+        </div>
+
+        <H2>Género</H2>
+        <div>
+            <input type="radio" name="genre" value="masc">
+            <label for="" class="">masculino</label>
+        </div>
+        <div>
+            <input type="radio" name="genre" value="fem">
+            <label for="" class="">femenino</label>
+        </div>
+        <div>
+            <input type="radio" name="genre" value="na">
+            <label for="" class="">prefiero no decirlo</label>
+        </div>
+
+        <h2>Nacionalidad</h2>
+        <div>
+            <select name="nacionalidad" id="">
+                <option value="ar">Argentina</option>
+                <option value="br">Brasil</option>
+                <option value="ur">Uruguay</option>
+            </select>
+        </div>
+            
+
+        <button type="submit"> Regsitrate </button>
+    </form>
+
+    
+</body>
+</html>
