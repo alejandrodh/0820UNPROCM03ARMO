@@ -30,11 +30,25 @@
         </nav>
 
         <!-- Buscador -->
-        <form action="search-results.html" method="get"> 
+        <form action="results.html" method="get"> 
             <div class="form-group my-4 text-center">
                 <input type="text" class="col-9" name="searchData" placeholder="Buscar..." value="">
                 <button type="submit" class="btn btn-success col-1">Buscar</button>
-                <small id="emailHelp" class="form-text text-muted"></small>
+                <div>
+                    <!-- Radio button -->
+                    <input type="radio" name="mediaType" id="all" value="all" checked>
+                    <label class="mr-2" for="all">Todos</label>
+                    <!-- Radio button -->
+                    <input type="radio" name="mediaType" id="movie" value="movie" >
+                    <label class="mr-2"for="movie">Películas</label>
+                    <!-- Radio button -->
+                    <input type="radio" name="mediaType" id="tv" value="tv" >
+                    <label class="mr-2" for="tv">Series</label>
+                    <!-- Radio button -->
+                    <input type="radio" name="mediaType" id="person" value="person" >
+                    <label class="mr-2" for="person">Personas</label>
+                </div>
+
             </div>
         </form>
 

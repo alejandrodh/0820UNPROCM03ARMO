@@ -9,6 +9,8 @@
 </head>
 <body>
     <div class="container">
+        <h1>Las mejores películas y series del mundo mundial</h1>
+        
         <!-- Menu -->
         <nav>
             <ul class="nav nav-tabs my-4">
@@ -26,9 +28,9 @@
                 </li>
             </ul>
         </nav>
-        
+
         <!-- Buscador -->
-        <form action="results.html" method="get">
+        <form action="results.html" method="get"> 
             <div class="form-group my-4 text-center">
                 <input type="text" class="col-9" name="searchData" placeholder="Buscar..." value="">
                 <button type="submit" class="btn btn-success col-1">Buscar</button>
@@ -46,20 +48,13 @@
                     <input type="radio" name="mediaType" id="person" value="person">
                     <label class="mr-2" for="person">Personas</label>
                 </div>
-        
-            </div>
-        </form>
+            </form>
 
-        <h1 class="alert alert-primary">Título de la película</h1>
-        <!-- <a class="text-right d-block" href="">Agregar a favoritos</a> -->
-        <h3>Poster comercial</h3>
-        <img src="" alt="">
-        <h3>Descripción</h3>
-        <p class="description"></p>
-        <a href=""></a>
-        
-    
-    
+        <h2 class="alert alert-primary">Resultados de busqueda</h2>
+        <section class="row movies">
+            <!-- Las tarjetas vienen desde js -->
+        </section>
+  
 
     <!-- Bootsrap scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -73,6 +68,6 @@
         crossorigin="anonymous"></script>
 
     <!-- custom home scripts -->
-    <script src="./js/movie.js"></script>
+    <script src="./js/results.js"></script>
 </body>
 </html>
